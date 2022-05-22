@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "contentful": "^8.1.4",
+    "contentful-management": "^7.5.0",
+    "dotenv": "^8.2.0",
+    "prompts": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-optional-chaining": "^7.0.0-beta.3",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^5.16.0",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "name": "cf-bulk-updates",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node dist/index.js"
+  },
+  "author": "Max Alexeev",
+  "license": "ISC",
+  "description": ""
+}
